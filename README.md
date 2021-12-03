@@ -8,9 +8,9 @@ Install Infineon Toolbox at https://www.infineon.com/cms/en/tools/landing/infine
 
 Open up infineon toolbox, and search+download in the manage Tools section:
 
-Sense2GoL Pulse
-XMCFlasher
-Radar Gui
+1. Sense2GoL Pulse
+2. XMCFlasher
+3. Radar Gui
 
 ### 3 
 
@@ -22,10 +22,10 @@ Connect to the Radar/Arduino with a USB cable (into the debug port)
 
 ### 5 
 
-Insert a micro USB cable (Debug) into the Baseboard
-Open Infineon Toolbox → XMCTM Flasher
-Check that Debugger Type is "SEGGER", otherwise go to: "Configurations" → "Setup", then set it to "SEGGER"
-Click on "Connect" → XMC4700-2048
+1. Insert a micro USB cable (Debug) into the Baseboard
+2. Open Infineon Toolbox → XMCTM Flasher
+3. Check that Debugger Type is "SEGGER", otherwise go to: "Configurations" → "Setup", then set it to "SEGGER"
+4. Click on "Connect" → XMC4700-2048
 
 ### 6 
 
