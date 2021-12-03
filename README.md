@@ -28,10 +28,13 @@ Connect to the Radar/Arduino with a USB cable (into the debug port)
 
 ### 5 
 
-1. Insert a micro USB cable (Debug) into the Baseboard
-2. Open Infineon Toolbox → XMCTM Flasher
-3. Check that Debugger Type is "SEGGER", otherwise go to: "Configurations" → "Setup", then set it to "SEGGER"
-4. Click on "Connect" → XMC4700-2048
+Open Infineon Toolbox → Radar GUI
+Go to "Device" → "Flash Firmware"
+
+Select "Sense2GoL Pulse" device from the dropdown list
+Select the Firmware to flash (e.g. D2GL_SC_FMCW.hex)
+Click on "Flash Firmware" button to start flashing the board
+Once finished, a "Successfully Flashed" popup message appears
 
 ## Now you are done with the hardware setup, let's move on to the arduino set up
 
