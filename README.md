@@ -1,3 +1,9 @@
+# IMPORTANT LINKS:
+
+## 1. Arduino documentation: https://www.infineon.com/dgdl/Infineon-AN605_Sense2GoL_Pulse_Demo_Board-ApplicationNotes-v01_00-EN.pdf?fileId=5546d462700c0ae601708bd8d71f1440
+
+## 2. A deeper understanding of the radar module: https://www.infineon.com/dgdl/Infineon-S2GL_Application_Note_AN597-ApplicationNotes-v01_00-EN.pdf?fileId=5546d4626b2d8e69016b89403b9342aa
+
 # How to get radar to work
 
 ### 1
@@ -48,5 +54,3 @@ Navigate back to Tools, Board: and now go to the "XMC Family" subsection, and se
 ### 5
 
 Run the arduino program, and it should work!
-
-**Click this link to gain a deeper understanding of the radar module: https://www.infineon.com/dgdl/Infineon-S2GL_Application_Note_AN597-ApplicationNotes-v01_00-EN.pdf?fileId=5546d4626b2d8e69016b89403b9342aa**
