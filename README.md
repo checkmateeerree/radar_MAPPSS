@@ -41,8 +41,11 @@ Once in preferences, navigate to "Additional Boards Manager URLs" (it's near the
 
 Then, on the top left of Arduino, navigate to Tools, Board:, and Manage Boards. On the Boards manager, search up: **XMC Microcontroller**, and install the "Infineon's XMC Microcontroller" package.
 
+### 4
 
-### 6 
+Navigate back to Tools, Board: and now go to the "XMC Family" subsection, and select the "DEMO RADAR BB XMC4700" option.
+
+### 5
 
 Run the arduino program, and it should work!
 
