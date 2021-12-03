@@ -6,6 +6,30 @@
 
 # How to get radar to work
 
+## Arduino Setup
+
+### 1
+
+Open Arduino, and at the top left corner, you see "File". Click that, then click "Preferences".
+
+### 2 
+
+Once in preferences, navigate to "Additional Boards Manager URLs" (it's near the bottom), and enter this link: https://github.com/Infineon/Assets/releases/download/current/package_infineon_index.json. Click OK.
+
+### 3
+
+Then, on the top left of Arduino, navigate to Tools, Board:, and Manage Boards. On the Boards manager, search up: **XMC Microcontroller**, and install the "Infineon's XMC Microcontroller" package.
+
+### 4
+
+Navigate back to Tools, Board: and now go to the "XMC Family" subsection, and select the "DEMO RADAR BB XMC4700" option.
+
+### 5
+
+Run the arduino program, and move on to the other part!
+
+## Second Part
+
 ### 1
 
 Install Infineon Toolbox at https://www.infineon.com/cms/en/tools/landing/infineontoolbox.html
@@ -35,25 +59,3 @@ Select "Sense2GoL Pulse" device from the dropdown list
 Select the Firmware to flash (e.g. D2GL_SC_FMCW.hex)
 Click on "Flash Firmware" button to start flashing the board
 Once finished, a "Successfully Flashed" popup message appears
-
-## Now you are done with the hardware setup, let's move on to the arduino set up
-
-### 1
-
-Open Arduino, and at the top left corner, you see "File". Click that, then click "Preferences".
-
-### 2 
-
-Once in preferences, navigate to "Additional Boards Manager URLs" (it's near the bottom), and enter this link: https://github.com/Infineon/Assets/releases/download/current/package_infineon_index.json. Click OK.
-
-### 3
-
-Then, on the top left of Arduino, navigate to Tools, Board:, and Manage Boards. On the Boards manager, search up: **XMC Microcontroller**, and install the "Infineon's XMC Microcontroller" package.
-
-### 4
-
-Navigate back to Tools, Board: and now go to the "XMC Family" subsection, and select the "DEMO RADAR BB XMC4700" option.
-
-### 5
-
-Run the arduino program, and it should work!
