@@ -8,7 +8,7 @@ void myErrorCallback( uint32_t error )
     
     // turn on LEDs for error
     digitalWrite(LED_GREEN, LOW);
-    digitalWrite(LED_RED, LOW);
+    digitalWrite(LED_RED, HIGH);
     digitalWrite(LED_BLUE, LOW);
     
     while( 1 )
@@ -19,26 +19,31 @@ void myErrorCallback( uint32_t error )
 void myResultCallback(void)
 {
   uint8_t targetDirection = radarDev.getDirection();
+ 
   if(targetDirection == 1)
   {
     // turn on Red LED for departing target
-    digitalWrite(LED_GREEN, HIGH);
+    /*
+     *   digitalWrite(LED_GREEN, LOW);
     digitalWrite(LED_RED, LOW);
     digitalWrite(LED_BLUE, HIGH);
+     */
+  
   }
   else if(targetDirection == 2)
   {
     // turn on Green LED for approaching target
-    digitalWrite(LED_GREEN, LOW);
+   /* digitalWrite(LED_GREEN, LOW);
     digitalWrite(LED_RED, HIGH);
-    digitalWrite(LED_BLUE, HIGH);      
+    digitalWrite(LED_BLUE, HIGH);   */   
   }
   else if(radarDev.targetAvailable() == true)
   {
     // turn on Blue LED for just normal motion with no meaningful direction
+    /*
     digitalWrite(LED_GREEN, HIGH);
     digitalWrite(LED_RED, HIGH);
-    digitalWrite(LED_BLUE, LOW);
+    digitalWrite(LED_BLUE, LOW);*/
   }
   else
   {
